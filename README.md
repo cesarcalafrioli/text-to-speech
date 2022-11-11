@@ -1,6 +1,6 @@
 # TEXT TO SPEECH
 
-Ferramenta de convers
+Ferramenta de conversão de texto para áudio por meio da API gtts.
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-<COLOR>.svg)](https://shields.io/)
@@ -10,12 +10,13 @@ Ferramenta de convers
 
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Instruções](#Instruções)
-* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
-* [Licença](#Licença)
+* [Instruções](#instrucoes)
+* [Lista de idiomas](#lista-de-idiomas)
+* [Licença](#licença)
 
 # Descrição do Projeto
 
+Ferramenta de conversão de texto para áudio utilizando a API gtts. A ferramenta recebe como parâmetros o texto a ser convertido, o idioma em forma de código e o caminho onde se deseja salvar o áudio.
 
 ## Tecnologias utilizadas
 
@@ -39,7 +40,9 @@ Ferramenta de convers
     ```
     python text-to-speech.py "Hello World!" en /home/audio
     ```
-    
+   
+## Lista de idiomas
+   
  | Código | Idioma  | Código | Idioma  |
 | --- | ----------- | --- | ----------- |
 | af | Afrikaans Afrikaans | sq sq | Albanian Albanês
@@ -79,8 +82,8 @@ Ferramenta de convers
 | ko ko | Korean Coreano | ko ko | Korean (Johab) Coreano (Johab) |
 | lv lv | Latvian Letã | lt lt | Lithuanian Lituano |
 | mk mk | Macedonian (FYROM) Macedônio (FYROM) | ms ms | Malaysian Malásia |
-| mt mt,Maltese Maltês,no não,Norwegian (Bokmal) Norueguês (bokmal) |
-| no não,Norwegian (Nynorsk) Norueguês (Nynorsk),pl pl,Polish Polonês |
+| mt mt | Maltese Maltês | no não | Norwegian (Bokmal) Norueguês (bokmal) |
+| no não | Norwegian (Nynorsk) Norueguês (Nynorsk) | pl pl | Polish Polonês |
 | pt-br pt-br | Portuguese (Brazil) Português (Brasil) | pt pt | Portuguese (Portugal) Português (Portugal) |
 | rm rm | Rhaeto-Romanic Reto-românico | ro ro | Romanian Romeno |
 | ro-mo ro mo- | Romanian (Republic of Moldova) Romeno (República da Moldávia) | ru ru | Russian Russo |
