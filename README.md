@@ -25,13 +25,13 @@ Ferramenta de conversão de texto para áudio utilizando a API gtts. A ferrament
 
 ## Instruções
 
-1. Ative um ambiente virtual (virtualenv, venv, pyenv, etc.). 
-
-2. Instale os requisitos desse projeto
+1. É necessário rodar esse aplicativo em um ambiente virtual python. Veja este [tutorial](https://github.com/cesarcalafrioli/tutorial-ambiente-virtual-python) para saber como.
+2. Instale os pacotes listados acima.
+3. Instale os requisitos desse projeto
     ```
     pip install -r requirements.txt
     ```
-3. Rode a aplicação
+4. Rode a aplicação
     ```
     python text-to-speech.py <TEXTO  A SER CONVERTIDO> <IDIOMA ( VER LISTA ABAIXO )> <DIRETÓRIO PARA SALVAR O ARQUIVO CONVERTIDO>
     ```
